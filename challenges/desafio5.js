@@ -7,5 +7,4 @@ db.produtos.find(
     nome: true,
     curtidas: true,
     vendidos: true,
-  }
-);
+  });
