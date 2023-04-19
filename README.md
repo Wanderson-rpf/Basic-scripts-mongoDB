@@ -8,7 +8,9 @@ Nessa atividade feita na Trybe, criei scripts basicos do banco NoSQL MongoDB, pa
 
 Para utilização via docker, siga os passos abaixo.
 
-1. Criando container com volume /app
+1. Criando container com volume /app.
+
+Na pasta do projeto execute o comando abaixo.
 
 ```bash
 docker run -d --name=nomeDoContainer -v "$PWD:/app" -p 27017:27017 mongo:5.0
